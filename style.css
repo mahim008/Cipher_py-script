@@ -58,7 +58,11 @@ body{
     background-color: white;
     border-radius: 10px;
 }
-
+#test-output, #test-output2{
+    background-color: bisque;
+    font-size: x-large ;
+    height: 50px;
+}
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
