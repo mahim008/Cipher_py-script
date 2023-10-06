@@ -12,9 +12,8 @@ body{
 }
 
 .brand-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: .5rem;
-    text-align: center;
 }
 
 .navbar-links {
@@ -59,13 +58,8 @@ body{
     background-color: white;
     border-radius: 10px;
 }
-#test-output, #test-output2{
-    background-color: bisque;
-    font-size: x-large ;
-    height: 50px;
-}
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -95,7 +89,5 @@ body{
 
     .navbar-links.active {
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }
